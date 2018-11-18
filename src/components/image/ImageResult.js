@@ -4,6 +4,21 @@ import { GridList, GridTile, IconButton, Dialog, FlatButton, } from 'material-ui
 import ZoomIn from 'material-ui/svg-icons/action/zoom-in';
 
 class ImageResult extends Component {
+    state = {
+        open : false,
+        currentImg: ""
+    }
+    handleOpen = img => {
+        this.setState({
+            open:true,
+            currentImg:img
+        })
+    }
+    handleClose = () => {
+        this.setState({
+            open:false
+        })
+    }
     render() {
         let imageList;
         const { images } = this.props
@@ -33,9 +48,19 @@ class ImageResult extends Component {
         } else {
             imageList = null
         }
+        const actions = [
+            <FlatButton label="Close" primary={true} onClick={this.handleClose}/>
+        ]
         return (
             <div>
                 {imageList}
+                <Dialog
+                    actions={actions}
+                    modal={false}
+                    open={this.state.open}
+                    onRequestClose={this.handleClose}>
+                    <img src={this.state.currentImg} alt="" style={{width : "100%"}}/>
+                </Dialog>
             </div>
         );
     }
@@ -44,6 +69,5 @@ class ImageResult extends Component {
 ImageResult.PropTypes = {
     images: PropTypes.array.isRequired
 }
-
 
 export default ImageResult;

@@ -41,6 +41,9 @@ class ImageResult extends Component {
     }
 }
 
+ImageResult.PropTypes = {
+    images: PropTypes.array.isRequired
+}
 
 
 export default ImageResult;

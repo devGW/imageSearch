@@ -1,14 +1,14 @@
 {
-  "main.css": "/pixabay-app/static/css/main.5aeed6c4.chunk.css",
-  "main.js": "/pixabay-app/static/js/main.8b3d4933.chunk.js",
-  "main.js.map": "/pixabay-app/static/js/main.8b3d4933.chunk.js.map",
-  "static/js/1.7f1637d1.chunk.js": "/pixabay-app/static/js/1.7f1637d1.chunk.js",
-  "static/js/1.7f1637d1.chunk.js.map": "/pixabay-app/static/js/1.7f1637d1.chunk.js.map",
-  "runtime~main.js": "/pixabay-app/static/js/runtime~main.d5db57fd.js",
-  "runtime~main.js.map": "/pixabay-app/static/js/runtime~main.d5db57fd.js.map",
-  "static/media/tu.png": "/pixabay-app/static/media/tu.fe893013.png",
-  "static/css/main.5aeed6c4.chunk.css.map": "/pixabay-app/static/css/main.5aeed6c4.chunk.css.map",
-  "index.html": "/pixabay-app/index.html",
-  "precache-manifest.fa8fd7887ee8ae715330fdd62ac23326.js": "/pixabay-app/precache-manifest.fa8fd7887ee8ae715330fdd62ac23326.js",
-  "service-worker.js": "/pixabay-app/service-worker.js"
+  "main.css": "/imageSearch/static/css/main.5aeed6c4.chunk.css",
+  "main.js": "/imageSearch/static/js/main.c9a609a9.chunk.js",
+  "main.js.map": "/imageSearch/static/js/main.c9a609a9.chunk.js.map",
+  "static/js/1.7f1637d1.chunk.js": "/imageSearch/static/js/1.7f1637d1.chunk.js",
+  "static/js/1.7f1637d1.chunk.js.map": "/imageSearch/static/js/1.7f1637d1.chunk.js.map",
+  "runtime~main.js": "/imageSearch/static/js/runtime~main.77b01178.js",
+  "runtime~main.js.map": "/imageSearch/static/js/runtime~main.77b01178.js.map",
+  "static/media/tu.png": "/imageSearch/static/media/tu.fe893013.png",
+  "static/css/main.5aeed6c4.chunk.css.map": "/imageSearch/static/css/main.5aeed6c4.chunk.css.map",
+  "index.html": "/imageSearch/index.html",
+  "precache-manifest.8a39a15d0d4841eeba18a50541629314.js": "/imageSearch/precache-manifest.8a39a15d0d4841eeba18a50541629314.js",
+  "service-worker.js": "/imageSearch/service-worker.js"
 }

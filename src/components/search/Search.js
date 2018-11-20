@@ -30,7 +30,7 @@ class Search extends Component {
           .catch(err => console.log(err));
       }
     });
-    this.props.handleSpace()
+    this.props.handleSpace(e)
   };
 
   handleAmount = (e, index, value) => this.setState({ amount: value });

@@ -12,13 +12,18 @@ class App extends Component {
   state = {
     space : true
   }
-  handleState = () => {
-    this.setState({
-      space : !this.state.space
-    })
+  handleState = (e) => {
+    if(this.state.space === true){
+      this.setState({
+        space : !this.state.space
+      })
+    } else if(e.target.value === ""){
+      this.setState({
+        space : !this.state.space
+      })
+    }
   }
   render() {
-    console.log(this.state.space);
     return (
       
       <MuiThemeProvider>

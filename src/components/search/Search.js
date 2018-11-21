@@ -30,14 +30,14 @@ class Search extends Component {
               .catch(err => console.log(err));
           }
         });
+        this.props.handleSpace(e)
       };
     
       handleAmount = (e, index, value) => this.setState({ amount: value });
     
       render() {
-        console.log(this.state);
         return (
-          <div>
+          <div className="container">
             <TextField
               name="search"
               value={this.state.search}
@@ -58,7 +58,7 @@ class Search extends Component {
               <MenuItem value={30} primaryText="30" />
               <MenuItem value={50} primaryText="50" />
             </SelectField>
-            <br />
+            <br /><br /><br />
             {this.state.images.length > 0 ? (
               <ImageResult images={this.state.images} />
             ) : null}

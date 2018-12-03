@@ -16,7 +16,7 @@ class FooterPage extends React.Component {
                         <Col md="6">
                             <h5 className="title">SocketPrograming Project</h5>
                             <p>
-                                14110088정건우 & 14110088정도영 <br />
+                                14110088정건우 & 14110089정도영 <br />
                                 (update : 2018/11/19)
                                 <br/>
                                 Click <a href="https://github.com/devGW/imageSearch" style={style}><b>here</b></a> to view the original source 
